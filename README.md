@@ -1,69 +1,67 @@
- # Quiz Management React App
+# Quiz Management React App
 
-A React-based quiz management application that allows users to take quizzes, track their history, and view a scoreboard.
+## 🚀 Live Demo
+🔗 [Live Link Here](https://quize4u.netlify.app/)  
 
-## Features
+## 📌 Features
 
-- **Display a list of questions** in a quiz format.
-- **Allow multiple attempts** for users.
-- **Show quiz history** using IndexedDB.
-- **Show a scoreboard** at the end of each quiz.
-- **Instant feedback** after selecting an answer.
-- **Timer-based quizzes**, where users have **30 seconds per question**.
+### ✅ Quiz System with Multiple Question Types
+- Displays **multiple-choice** and **integer-type** questions.
+- Each question appears **one at a time** to provide a structured experience.
+- Users can **select answers** and get **instant feedback**.
 
-## Live Demo
-[Click here to check out the live version](#) (Replace with actual link)
+### ⏳ Timer-Based Quizzes
+- Each question has a **30-second countdown timer**.
+- If the timer reaches **0**, the question is marked as **skipped**, and the next question appears automatically.
 
-## Installation & Setup
+### 🔄 Multiple Quiz Attempts
+- Users can **retake the quiz** as many times as they want.
+- Each attempt resets the quiz with fresh tracking of correct, incorrect, and skipped questions.
 
-Follow these steps to run the app locally:
+### 📊 Scoreboard & History Tracking
+- At the end of the quiz, a **scoreboard** displays:
+  - ✅ Correct answers
+  - ❌ Incorrect answers
+  - ⏭️ Skipped questions
+- Quiz history is **stored in IndexedDB**, allowing users to review past attempts.
 
-### Prerequisites
-Ensure you have the following installed:
-- Node.js (Latest LTS version recommended)
-- npm or yarn
+## 🛠️ Installation & Setup
 
-### Steps
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-username/quiz-management-app.git
-   cd quiz-management-app
-   ```
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/quiz-management-app.git
+cd quiz-management-app
+```
 
-2. Install dependencies:
-   ```sh
-   npm install
-   ```
-   or
-   ```sh
-   yarn install
-   ```
+### 2️⃣ Install Dependencies
+```bash
+npm install
+```
 
-3. Start the development server:
-   ```sh
-   npm start
-   ```
-   or
-   ```sh
-   yarn start
-   ```
+### 3️⃣ Start the Development Server
+```bash
+npm start
+```
+- The app will run on `http://localhost:3000/` by default.
 
-4. Open your browser and visit:
-   ```
-   http://localhost:3000
-   ```
+## 🌍 Deployment on Netlify
 
-## Technologies Used
+1️⃣ **Push Code to GitHub**
+```bash
+git add .
+git commit -m "Initial commit"
+git push origin main
+```
 
-- **React.js** - Frontend framework
-- **React Router** - For navigation
-- **IndexedDB** - For storing quiz history
-- **Tailwind CSS** - Styling
+2️⃣ **Deploy to Netlify**
+- Go to [Netlify](https://www.netlify.com/).
+- Click **"New site from Git"**.
+- Select **GitHub** and choose your repository.
+- Configure build settings:
+  - Build Command: `npm run build`
+  - Publish Directory: `build/`
+- Click **"Deploy Site"**.
 
-## Contributing
+ 
 
-Feel free to fork the repository and submit pull requests.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+ 
