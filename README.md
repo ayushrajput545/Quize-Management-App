@@ -1,4 +1,5 @@
 # Quiz Management React App
+-A React-based quiz management application that allows users to take quizzes, track their history, and view a scoreboard.
 
 ## 🚀 Live Demo
 🔗 [Live Link Here](https://quize4u.netlify.app/)  
